@@ -1,0 +1,68 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+/bin/
+/target/      # Maven build outputs
+/build/       # Gradle build outputs
+
+# --- IDE ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# --- Environment ---
+.env
+*.properties
+*.yml
+!application*.yml   # Keep your Spring config files
+
+# --- Database ---
+*.db
+*.sql
+/h2-database/
+
+# --- Logs ---
+*.log
+logs/
